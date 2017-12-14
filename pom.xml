@@ -2,9 +2,9 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.bootcamp</groupId>
+    <groupId>com.bootcamp.agroppm</groupId>
     <artifactId>commons</artifactId>
-    <version>1.2</version>
+    <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <name>commons</name>
@@ -109,13 +109,6 @@
                     <descriptorRefs>
                         <descriptorRef>jar-with-dependencies</descriptorRef>
                     </descriptorRefs>
-                    <!-- MainClass in mainfest make a executable jar -->
-                    <!--<archive>-->
-                    <!--<manifest>-->
-                    <!--<mainClass>com.mkyong.core.utils.App</mainClass>-->
-                    <!--</manifest>-->
-                    <!--</archive>-->
-
                 </configuration>
                 <executions>
                     <execution>
